@@ -1,7 +1,7 @@
 # Vaccine temp pipeline
-REDCap Project lead: Wu, Jia (DOH) <jia.wu@doh.wa.gov>
-Data process owner: Alexey Gilman <alexey.gilman@doh.wa.gov>
-Frequency: monthly, last day of the month
+REDCap Project lead: Wu, Jia (DOH) <jia.wu@doh.wa.gov>\
+Data process owner: Alexey Gilman <alexey.gilman@doh.wa.gov>\
+Frequency: monthly, last day of the month\
 
 ### Process Description:
 Report ID = [2137, 2111] (report numbers 38 and 39 respectively)
