@@ -48,6 +48,7 @@ if __name__ == "__main__":
 
     # 2) Complete transformation
     df_storage_info = storage_info_transform(df_storage_info)
+    print("transform complete")
 
     #3) import into dev environment
     dev278.import_records(df_storage_info, import_format = "df")
