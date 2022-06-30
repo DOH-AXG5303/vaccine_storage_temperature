@@ -29,7 +29,9 @@ if __name__ == "__main__":
 
     #API connection
     prod100 = redcap.Project(prod_url, api_keys["prod_pid100"])
-    dev278 = redcap.Project(dev_url, api_keys["dev_pid278"])
+    #dev278 = redcap.Project(dev_url, api_keys["dev_pid278"])
+    prod278 = redcap.Project(prod_url, api_keys["prod_pid278"])
+    
 
     # 1)Export Report #38 prod
     df_facility_info = prod100.export_report(report_id=2137 ,format_type = "df")
@@ -40,7 +42,8 @@ if __name__ == "__main__":
     print("transform complete")
     
     # 3) import into dev environment
-    dev278.import_records(df_facility_info, import_format = "df")
+    #dev278.import_records(df_facility_info, import_format = "df")
+    prod278.import_records(df_facility_info, import_format = "df")
     print("process complete")
 
 
